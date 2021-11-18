@@ -1,11 +1,14 @@
 import React from "react";
 import "./home.scss";
 import "../../styles/core.scss";
+import Nav from "../navbar/Nav";
+import About from "../about/About";
 
 function Home() {
   return (
     <div>
-      <h1>This is Home, don't forget it</h1>
+      <Nav />
+      <About />
     </div>
   );
 }

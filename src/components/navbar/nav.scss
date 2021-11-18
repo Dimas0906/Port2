@@ -1,0 +1,38 @@
+@import "../../styles/core.scss";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 95%;
+  max-width: 80vw;
+  height: 8em;
+
+  .left {
+    color: $cust;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+
+  .right {
+    color: $pri;
+    font-weight: 300;
+    font-size: 1em;
+
+    ul {
+      list-style: none;
+      display: flex;
+
+      li {
+        flex-direction: row;
+        margin: 0.8em;
+        transition: $anim;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+@import "../../../styles/core.scss";
+
+.social-container {
+  ul {
+    margin-top: 2em;
+    display: flex;
+    list-style: none;
+
+    li {
+      margin: 1em;
+
+      a {
+        color: black;
+        padding-top: 0.2em;
+        background-color: #f0e6e6;
+        padding: 0.7em;
+        border-radius: 2em;
+        font-size: 1.7em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // shadow effect
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        transition: $anim;
+
+        &:hover {
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+          text-decoration: none;
+          transition: $anim;
+        }
+      }
+    }
+  }
+}

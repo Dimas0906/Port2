@@ -1,11 +1,15 @@
 // font
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;500;700&family=Inter:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap");
 
-// color
+// some variable
 $pri: #2f3e46;
 $sec: #354f52;
 $trt: #52796f;
 $font: #cad2c5;
+$cust: #2978b5;
+$anim: 0.5s all ease-in-out;
+
+// mixins
 
 * {
   margin: 0;
