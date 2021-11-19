@@ -11,7 +11,7 @@ import tailwind from "../../assets/skill/tailwind.png";
 import redux from "../../assets/skill/redux.png";
 import sequelize from "../../assets/skill/sequelize.png";
 import express from "../../assets/skill/express.png";
-import bootstrap from "../../assets/skill/bootstrap.png";
+// import bootstrap from "../../assets/skill/bootstrap.png";
 import jwt from "../../assets/skill/jwt.png";
 import gitbash from "../../assets/skill/gitbash.png";
 import github from "../../assets/skill/github.png";
@@ -59,9 +59,6 @@ function Skills() {
             </div>
             <div>
               <img src={express} alt=".." />
-            </div>
-            <div>
-              <img src={bootstrap} alt=".." />
             </div>
             <div>
               <img className="nodejs" src={nodejs} alt=".." />

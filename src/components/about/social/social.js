@@ -1,21 +1,21 @@
 const socialAccount =[
     {
         icon: 'whatsapp',
-        link:''
+        link:'https://wa.link/ftptml'
     },
     {
         icon: 'github',
-        link:''
+        link:'https://github.com/Dmaul0906'
     },
     {
         icon: 'email',
-        link:''
+        link:'mailto:dimas_maulanaa@yahoo.com'
     },{
         icon: 'linkedin',
-        link:''
+        link:'https://www.linkedin.com/in/dimas-m/'
     },{
         icon: 'instagram',
-        link:''
+        link:'https://www.instagram.com/dmaul0906/'
     },
 ]
 

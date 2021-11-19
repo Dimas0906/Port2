@@ -8,11 +8,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3em auto;
+  // margin: 2em auto;
+
+  h1 {
+    margin: 1.7em;
+  }
 
   .top {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 
     .left,
@@ -22,18 +26,34 @@
     }
 
     .left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 1em auto;
+
       h2 {
         text-align: center;
+        margin: 1em auto;
       }
 
       div {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
         flex-direction: row;
-        margin: 0.7em;
+        margin: 0 auto;
+        gap: 0.5em;
+
+        div {
+          max-width: 15%;
+          gap: 0.5em;
+        }
 
         img {
-          width: 5em;
+          width: 4em;
+          transition: $anim;
 
           &:hover {
             transform: scale(1.1);
@@ -44,23 +64,39 @@
     }
 
     .right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 1em auto;
+
       h2 {
         text-align: center;
+        margin: 1em auto;
       }
 
       div {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
         flex-direction: row;
-        margin: 1em;
+        margin: 0 auto;
+        gap: 0.5em;
+
+        div {
+          max-width: 15%;
+          gap: 0.5em;
+        }
 
         .nodejs {
-          width: 6em;
+          width: 5em;
           height: auto;
         }
 
         img {
-          width: 5em;
+          width: 4em;
+          transition: $anim;
 
           &:hover {
             transform: scale(1.1);
@@ -76,19 +112,35 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 2.5em auto;
+
+    h2 {
+      text-align: center;
+      margin: 1em auto;
+    }
 
     div {
       display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
       flex-direction: row;
-      margin: 1em;
+      margin: 0 auto;
+      gap: 0.5em;
+
+      div {
+        max-width: 15%;
+        gap: 0.5em;
+      }
 
       .mongo {
-        width: 8em;
+        width: 6em;
       }
     }
 
     img {
-      width: 5em;
+      width: 4em;
+      transition: $anim;
 
       &:hover {
         transform: scale(1.1);
