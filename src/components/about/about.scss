@@ -1,0 +1,35 @@
+@import "../../styles/core.scss";
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    color: $pri;
+    font-size: 3em;
+
+    .custom-span {
+      color: $cust;
+    }
+  }
+
+  h2 {
+    color: $sec;
+    font-size: 1.5em;
+  }
+
+  div {
+    max-width: 40%;
+    color: $sec;
+    font-size: 1.1em;
+    text-align: justify;
+  }
+
+  h1,
+  h2,
+  div {
+    margin: 0.5em;
+  }
+}

@@ -2,7 +2,7 @@
 
 .social-container {
   ul {
-    margin-top: 2em;
+    margin-top: 1em;
     display: flex;
     list-style: none;
 
@@ -10,6 +10,7 @@
       margin: 1em;
 
       a {
+        @include shadowButton;
         color: black;
         padding-top: 0.2em;
         background-color: #f0e6e6;
@@ -19,14 +20,38 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        // shadow effect
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-        transition: $anim;
 
         &:hover {
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-          text-decoration: none;
-          transition: $anim;
+          @include shadowButtonRemove;
+
+          .wa {
+            color: #25d366;
+            transition: $anim;
+            transform: scale(1.1);
+          }
+
+          .ig {
+            color: #c32aa3;
+            transition: $anin;
+            transform: scale(1.1);
+          }
+
+          .ln {
+            color: #0a66c2;
+            transition: $anin;
+            transform: scale(1.1);
+          }
+
+          .el {
+            color: #d32121;
+            transition: $anin;
+            transform: scale(1.1);
+          }
+
+          .gh {
+            transition: $anin;
+            transform: scale(1.1);
+          }
         }
       }
     }

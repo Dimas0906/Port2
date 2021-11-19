@@ -1,0 +1,99 @@
+@import "../../styles/core.scss";
+
+.skills-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3em auto;
+
+  .top {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    .left,
+    .right {
+      max-width: 40%;
+      margin: 1em 3em;
+    }
+
+    .left {
+      h2 {
+        text-align: center;
+      }
+
+      div {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0.7em;
+
+        img {
+          width: 5em;
+
+          &:hover {
+            transform: scale(1.1);
+            transition: $anim;
+          }
+        }
+      }
+    }
+
+    .right {
+      h2 {
+        text-align: center;
+      }
+
+      div {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 1em;
+
+        .nodejs {
+          width: 6em;
+          height: auto;
+        }
+
+        img {
+          width: 5em;
+
+          &:hover {
+            transform: scale(1.1);
+            transition: $anim;
+          }
+        }
+      }
+    }
+  }
+
+  .bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      margin: 1em;
+
+      .mongo {
+        width: 8em;
+      }
+    }
+
+    img {
+      width: 5em;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: $anim;
+      }
+    }
+  }
+}

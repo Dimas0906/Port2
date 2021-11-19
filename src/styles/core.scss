@@ -7,9 +7,21 @@ $sec: #354f52;
 $trt: #52796f;
 $font: #cad2c5;
 $cust: #2978b5;
+$anin: 0.5s all ease-in;
+$anou: 0.5s all ease-out;
 $anim: 0.5s all ease-in-out;
 
 // mixins
+@mixin shadowButton {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  transition: $anim;
+}
+
+@mixin shadowButtonRemove {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  transition: $anim;
+}
 
 * {
   margin: 0;

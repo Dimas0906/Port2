@@ -12,15 +12,15 @@ import {
 function Social() {
   function whichIcons(icon) {
     if (icon === "whatsapp") {
-      return <FaWhatsapp />;
+      return <FaWhatsapp className="wa" />;
     } else if (icon === "github") {
-      return <FaGithub />;
+      return <FaGithub className="gh" />;
     } else if (icon === "linkedin") {
-      return <FaLinkedin />;
+      return <FaLinkedin className="ln" />;
     } else if (icon === "instagram") {
-      return <FaInstagram />;
+      return <FaInstagram className="ig" />;
     } else if (icon === "email") {
-      return <FaEnvelope />;
+      return <FaEnvelope className="el" />;
     } else {
       return "";
     }

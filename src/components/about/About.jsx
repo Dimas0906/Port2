@@ -1,5 +1,6 @@
 import React from "react";
 import Social from "../about/social/Social";
+import "./about.scss";
 
 function About() {
   return (
