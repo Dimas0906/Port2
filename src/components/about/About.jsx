@@ -10,11 +10,13 @@ function About() {
       </h1>
       <h2>Junior Front-end Engineer</h2>
       <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, earum
-        aut atque iure architecto voluptate a! Debitis explicabo dolorem
-        deleniti sit, dolore assumenda inventore impedit cupiditate tempore ad
-        cum magni laudantium nobis voluptatum, dicta ullam quasi provident
-        aliquid quod tempora?
+        <p>
+          Hello I'm Dimas, Junior Front-end web developer. with experience
+          building websites using ReactJs. I{" "}
+          <strong>like learning new things</strong>, and really{" "}
+          <strong>like web development</strong>. I am also{" "}
+          <strong>interested in web development with 3D effects</strong>.
+        </p>
       </div>
       <Social />
     </div>

@@ -21,36 +21,44 @@
         justify-content: center;
         align-items: center;
 
+        .wa,
+        .ig,
+        .ln,
+        .el,
+        .gh {
+          transition: $anim;
+        }
+
         &:hover {
           @include shadowButtonRemove;
 
           .wa {
             color: #25d366;
             transition: $anim;
-            transform: scale(1.1);
+            transform: scale(1.05);
           }
 
           .ig {
             color: #c32aa3;
             transition: $anin;
-            transform: scale(1.1);
+            transform: scale(1.05);
           }
 
           .ln {
             color: #0a66c2;
             transition: $anin;
-            transform: scale(1.1);
+            transform: scale(1.05);
           }
 
           .el {
             color: #d32121;
             transition: $anin;
-            transform: scale(1.1);
+            transform: scale(1.05);
           }
 
           .gh {
             transition: $anin;
-            transform: scale(1.1);
+            transform: scale(1.05);
           }
         }
       }

@@ -1,8 +1,9 @@
 import React from "react";
+import "./home.scss";
 import Nav from "../../components/navbar/Nav";
 import About from "../../components/about/About";
 import Skills from "../../components/skills/Skills";
-import "./home.scss";
+import Experience from "../../components/experience/Experience";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Nav />
       <About />
       <Skills />
+      <Experience />
     </div>
   );
 }
